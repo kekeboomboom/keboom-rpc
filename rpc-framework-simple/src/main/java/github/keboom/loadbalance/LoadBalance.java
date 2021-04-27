@@ -13,5 +13,5 @@ public interface LoadBalance {
      * @param serviceAddresses 服务地址列表
      * @return 目标服务地址
      */
-    String selectServiceAddress(List<String> serviceAddresses);
+    String selectServiceAddress(List<String> serviceAddresses, String rpcServiceName);
 }
